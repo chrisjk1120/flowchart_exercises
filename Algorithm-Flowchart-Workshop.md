@@ -41,15 +41,7 @@ END
 
 ### ✔ Flowchart
 
-```mermaid
-flowchart TD
-    A([Start]) --> I[/Get input N/]
-    I --> B{N % 2 == 0 ?}
-    B -->|Yes| C[/Print Even/]
-    B -->|No| D[/Print Odd/]
-    C --> E([End])
-    D --> E([End])
-```
+![image](/img/oddeven.png)
 
 ---
 
@@ -71,6 +63,8 @@ START
     DISPLAY("AVG: " total/3)
 END
 ```
+### ✔ Flowchart
+![image](/img/marks1.png)
 
 ---
 
@@ -89,6 +83,9 @@ START
 END 
 ```
 ---
+### ✔ Flowchart
+![image](/img/multi.png)
+
 
 ## 4. Positive, Negative, or Zero Check
 
@@ -107,6 +104,9 @@ START
        DISPLAY("The number is zero")
 END IF 
 ```
+### ✔ Flowchart
+![image](/img/positive_negative.png)
+
 ---
 
 ## 5. Simple Interest Calculator
@@ -132,6 +132,8 @@ START
     DISPLAY ("Interest rate" + si)
 END 
 ```
+### ✔ Flowchart
+![image](/img/interest.png)
 ---
 
 ## 6. Average Temperature Calculation
@@ -148,6 +150,10 @@ START
     NEXT
     DISPLAY ("Average temperature for the week was: " avg_temp/7)
 ```
+### ✔ Flowchart
+![image](/img/avg_temp.png)
+---
+
 
 ## 7. Calculate Area of a Rectangle
 ### ✔ Pseudocode
@@ -162,6 +168,8 @@ START
     DISPLAY("Area of rectangle", length*width)
 
 ```
+### ✔ Flowchart
+![image](/img/rectangle.png)
 ---
 
 ## 8. Determine Pass or Fail
@@ -180,6 +188,8 @@ START
         display("**FAIL**")
     endif
 ```
+### ✔ Flowchart
+![image](/img/passfail.png)
 ---
 
 ## 9. Calculate Factorial of a Number
@@ -212,12 +222,13 @@ START
     SET total_due=0
     purchase_amount=INPUT("Purchase amount")
     if purchase_amount > 1000
-        total_due=purchase_amount+(purchase_amount*0.1)
+        total_due=purchase_amount-(purchase_amount*0.1)
     else
         total_due=purchase_amount
     DISPLAY("amount to pay": total_due)
 ```
-        
+### ✔ Flowchart
+![image](/img/discount.png) 
 ---
 
 
